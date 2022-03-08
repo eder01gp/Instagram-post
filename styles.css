@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+h3,h4{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#img_5{
+    padding: 10px;
+    height: 30px;
+}
+
+#img_dropdown{
+    height: 40px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.post{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.post_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+ 
+    .post_header_5{
+        text-align: left;
+        flex-grow: 1;
+
+    }  
+
+    .post_header_text{
+        text-align: left;
+        flex-grow: 150;
+    }  
+
+    .post_header_dropdown{
+        flex-grow: 1;
+        text-align: right;
+    }
+
+.post_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+    .post_foot_symbols{
+        width: 425px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .post_foot_symbols_save{
+            flex-grow: 12;
+            text-align: right;
+        }
+
+    .post_foot_peopleliked{
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
